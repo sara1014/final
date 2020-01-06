@@ -8,6 +8,6 @@
 Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
 
 1.這次的專題主題是關於game of life 的小遊戲，並運用上面的模板將網頁進行美化。
-2.使用者可以在“about”中看到關於遊戲的說明，拉到下面的“game”後按下“start”後等候幾秒即可開始遊戲。
+2.使用者可以在“about”中看到關於遊戲的說明，拉到下面的“game”後按下“start”後等候幾秒即可開始遊戲。（"contact"的部分保留，但也無額外擴充功能）
 3.遊戲的部分主要都是由jquery製作
 4.原本想用圖片的格式去表示細胞的生命，但參考這個網站https://css-tricks.com/game-life/ 才想到用矩陣的方式，有效率的多，要增加細胞數量的格子也容易，許多程式碼都是參考此網站而成。
