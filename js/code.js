@@ -134,14 +134,14 @@ function clearButtonHandler() {
 
     var cellsList = document.getElementsByClassName("live");
 
-    // var cells = [];
-    //for (var i = 0; i < cellsList.length; i++) {
-    //    cells.push(cellsList[i]);
-    //}
+    var cells = [];
+    for (var i = 0; i < cellsList.length; i++) {
+        cells.push(cellsList[i]);
+    }
 
-    //for (var i = 0; i < cells.length; i++) {
-    //   cells[i].setAttribute("class", "dead");
-    //}
+    for (var i = 0; i < cells.length; i++) {
+        cells[i].setAttribute("class", "dead");
+    }
 
     for (var i = 0; i < rows; i++) {
         for (var j = 0; j < cols; j++) {
